@@ -1,4 +1,4 @@
-REPO ?= bndw/wifi-card
+REPO ?= uakbr/wifi-qr-creator
 GITSHA=$(shell git rev-parse --short HEAD)
 TAG_COMMIT=$(REPO):$(GITSHA)
 TAG_LATEST=$(REPO):latest
